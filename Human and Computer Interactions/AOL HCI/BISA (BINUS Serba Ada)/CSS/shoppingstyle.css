@@ -1,0 +1,95 @@
+#gambs{
+    position: absolute;
+    width: 75px;
+    height: 73px;
+    left: 85%;
+    top: 6.5%;
+}
+
+#tulisan_sat{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 17.5%;
+    height: 5%;
+    left: 1%;
+    top: 12%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+
+    font-family: 'Mada',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 15px;
+    line-height: 180%;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+#pilih{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 40.9%;
+    right: 40.97%;
+    top: 44.43%;
+    bottom: 50%;
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; /*
+    line-height: 29px; 
+    /* identical to box height */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    
+
+}
+
+#pilih:hover{
+    background-color: #DC0000;
+}
+
+#back{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 45.83%;
+    right: 46.6%;   
+    top: 58.57%;
+    bottom: 36.91%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 24px;
+    /* line-height: 29px;  */
+    /* identical to box height */
+
+    /* display: flex;  */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+#back:hover{
+    background-color: #DC0000;
+}

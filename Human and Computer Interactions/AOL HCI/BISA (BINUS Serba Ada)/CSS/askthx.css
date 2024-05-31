@@ -1,0 +1,82 @@
+#asekla{
+    cursor: default;
+    position: absolute;
+    left: 0.05%;
+    top: 12.1%;
+    height: 4%;
+    width: 8%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 10px;
+}
+
+#tiexti{
+    position: absolute;
+    left: 9%;
+    top: -35%;
+  
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128%;
+
+    color: #FFFFFF;
+}
+
+#anounce{
+    cursor: default;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    height: 50%;
+    width: 60%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 10px;
+}
+
+#dahlah{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 350%;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#kembali{
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 88.48%;
+    bottom: 5.76%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+#kembali:hover{
+    cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}

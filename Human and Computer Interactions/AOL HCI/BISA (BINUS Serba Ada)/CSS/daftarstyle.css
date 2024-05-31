@@ -1,0 +1,64 @@
+.select_user {
+    position: relative;
+    display: inline-block;
+    max-width: 18%;
+    width: 18%;
+    left: 41%;
+    top: 300px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #dc0000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Mada", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+    cursor: default;
+  }
+  
+  .element a button {
+    background: #dc0000;
+    border: 1px solid #dc0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Mada", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 0.5rem 5rem;
+    margin: 1rem 1.4rem;
+    cursor: pointer;
+  }
+  
+  .element a button:hover {
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #dc0000;
+  }
+  
+  .element2 a button {
+    background: #dc0000;
+    border: 1px solid #dc0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Mada", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 0.5rem 4rem;
+    margin: 1rem 1.4rem;
+    cursor: pointer;
+  }
+  
+  .element2 a button:hover {
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #dc0000;
+  }

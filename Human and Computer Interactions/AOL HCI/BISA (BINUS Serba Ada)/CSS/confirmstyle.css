@@ -1,0 +1,186 @@
+body{
+    background-color: white;
+}
+
+.navbar{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 88%;
+
+  background: #DC0000;
+}
+
+#about{
+/*     
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+    
+    /* background: rgba(0, 0, 0, 0.34);
+    border: 1px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px; */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 109px;
+    height: 36px;
+    left: 20px;
+    top: 20px;
+
+    background: rgba(255, 255, 255, 0.34);
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 82.29%;
+    right: 8.75%;
+    top: 30%;
+    bottom: 91.21%;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+    color: #DC0000;
+}
+
+#about:hover{
+    cursor:pointer;
+    background-color: #00000057;
+    color: white;
+
+}
+
+#logo{
+  position: absolute;
+  left: 1%;
+  top: 10%;
+  width: 8%;
+  /* left: 2.99%;
+  right: 86.11%;
+  top: 2.29%;
+  bottom: 89.39%; */
+}
+
+#gambar_profile{
+    box-sizing: border-box;
+    position: relative;
+    left: 93.4%;
+    right: 2.22%;
+    top: 15%;
+    bottom: 90.04%;
+    width: 3.8%;
+}
+
+
+#tulisan_nama{
+    position: absolute;
+    width: 298px;
+    height: 60px;
+    left: 90px;    
+    top: 160px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 29px;
+    display: flex;
+    align-items: center; */
+
+    color: #000000;
+}
+
+#masuk_nama{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 850px;
+    height: 67px;
+    left: 338px;
+    top: 165px;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 65px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    text-align: left;
+    text-indent: 30px;
+
+    color: #FFFFFF;
+}
+
+#kumpul{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 40.9%;
+    right: 40.97%;
+    top: 79.88%;
+    bottom: 14.55%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+
+    
+}
+
+#kumpul:hover{
+    cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#kembali{
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 88.48%;
+    bottom: 5.76%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+#kembali:hover{
+    cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}

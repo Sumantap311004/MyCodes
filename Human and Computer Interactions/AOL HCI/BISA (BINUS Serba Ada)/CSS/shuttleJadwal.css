@@ -1,0 +1,200 @@
+#judulasu{
+  position: absolute;
+  width: 15vw;
+  height: 5vh;
+  left: 47.5vw;
+  top: 104px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+  
+}
+
+#pagi{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 90vw;
+  height: 10vh;
+  left: 5vw;
+  top: 26vh;
+  background: rgba(220, 0, 0, 0.34);
+  
+  border: 1px solid #DC0000;
+  border-radius: 15px;
+
+  position: absolute;
+  left: 4.93%;
+  right: 44.24%;
+  top: 29.49%;
+  bottom: 67.68%;
+
+  font-family: 'Inter'; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;  
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+#siang{
+  box-sizing: border-box;
+
+position: absolute;
+width: 90vw;
+height: 10vh;
+left: 5vw;
+top: 41vh;
+
+border: 1px solid #DC0000;
+border-radius: 15px;
+  background: rgba(220, 0, 0, 0.34);
+  position: absolute;
+left: 4.93%;
+right: 44.31%;
+top: 43.95%;
+bottom: 53.22%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#sore{
+  box-sizing: border-box;
+
+position: absolute;
+width: 90vw;
+height: 10vh;
+left: 5vw;
+top: 56vh;
+
+  background: rgba(220, 0, 0, 0.34);
+border: 1px solid #DC0000;
+border-radius: 15px;
+  position: absolute;
+left: 4.93%;
+right: 44.58%;
+top: 57.81%;
+bottom: 39.36%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#malem{
+  box-sizing: border-box;
+
+position: absolute;
+width: 90vw;
+height: 10vh;
+left: 5vw;
+top: 71vh;
+
+  background: rgba(220, 0, 0, 0.34);
+border: 1px solid #DC0000;
+border-radius: 15px;
+  position: absolute;
+left: 4.93%;
+right: 44.24%;
+top: 73.05%;
+bottom: 24.12%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+#pagi:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#siang:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#sore:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#malem:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#kembali{
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 89.57%;
+    bottom: 2.91%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+#kembali:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}

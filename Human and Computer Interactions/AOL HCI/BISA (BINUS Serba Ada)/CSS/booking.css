@@ -1,0 +1,223 @@
+#tulisan_venue{
+    position: absolute;
+    /* width: 211px;
+    height: 44px; */
+    left: 45vw;
+    top: 17.5vh;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 44px; */
+    /* identical to box height */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.kont{
+    position: absolute;
+    width: 1201px;
+    height: 90px;
+    left: 4%;
+    top: 35%;
+
+    border: 1px solid #DC0000;
+    /* border-radius: 15px;*/
+    background: rgba(220, 0, 0, 0.34);
+    border-radius: 15px;
+
+}
+
+.kont2{
+    position: absolute;
+    width: 1201px;
+    height: 90px;
+    left: 4%;
+    top: 55%;
+
+    border: 1px solid #DC0000;
+    /* border-radius: 15px;*/
+    background: rgba(220, 0, 0, 0.34);
+    border-radius: 15px;
+
+}
+
+.kont3{
+    position: absolute;
+    width: 1201px;
+    height: 90px;
+    left: 4%;
+    top: 75%;
+
+    border: 1px solid #DC0000;
+    /* border-radius: 15px;*/
+    background: rgba(220, 0, 0, 0.34);
+    border-radius: 15px;
+
+}
+
+.kont4{
+    position: absolute;
+    width: 1201px;
+    height: 90px;
+    left: 4%;
+    top: 95%;
+
+    border: 1px solid #DC0000;
+    /* border-radius: 15px;*/
+    background: rgba(220, 0, 0, 0.34);
+    border-radius: 15px;
+
+}
+
+.kont5{
+    position: absolute;
+    width: 1201px;
+    height: 90px;
+    left: 4%;
+    top: 115%;
+
+    border: 1px solid #DC0000;
+    /* border-radius: 15px;*/
+    background: rgba(220, 0, 0, 0.34);
+    border-radius: 15px;
+
+}
+
+
+#tulisan_resto{
+    position: absolute;
+    width: 190px;
+    height: 44px;
+    left: 5vw;
+    top: 4vh;
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* top: 500px; */
+    /* line-height: 44px; */
+    /* identical to box height */
+
+    /* display: flex; */
+    /* align-items: left; */
+    text-align: left;
+
+    color: #000000;
+
+}
+
+#tulisan_nara{
+    position: absolute;
+    width: 190px;
+    height: 44px;
+    left: 5vw;
+    top: 0.5vh;
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* top: 500px; */
+    /* line-height: 44px; */
+    /* identical to box height */
+
+    /* display: flex; */
+    /* align-items: left; */
+    text-align: left;
+
+    color: #000000;
+
+}
+
+#tulisan_rocky{
+    position: absolute;
+    width: 250px;
+    height: 44px;
+    left: 5vw;
+    top: 0.5vh;
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* top: 500px; */
+    /* line-height: 44px; */
+    /* identical to box height */
+
+    /* display: flex; */
+    /* align-items: left; */
+    text-align: left;
+
+    color: #000000;
+
+}
+
+#tulisan_waffle{
+    position: absolute;
+    width: 250px;
+    height: 44px;
+    left: 5vw;
+    top: 4vh;
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* top: 500px; */
+    /* line-height: 44px; */
+    /* identical to box height */
+
+    /* display: flex; */
+    /* align-items: left; */
+    text-align: left;
+
+    color: #000000;
+
+}
+
+#back3{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 145%;
+    
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 24px;
+    /* line-height: 29px;  */
+    /* identical to box height */
+
+    /* display: flex;  */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+#back3:hover{
+    cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#troli{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 85%;
+    top: 135%;
+}

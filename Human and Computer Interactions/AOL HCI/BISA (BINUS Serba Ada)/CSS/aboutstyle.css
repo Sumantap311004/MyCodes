@@ -1,0 +1,95 @@
+.ah{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 852.25px;
+    height: 566.46px;
+    left: 17.5%;
+    top: 20%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 55px;
+}
+
+#ahh{
+    position: absolute;
+    width: 854px;
+    height: 216px;
+    left: calc(50% - 854px/2);
+    top: 25%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#pilih3{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 15%;
+    left: 42.7%;
+    top: 115%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; /*
+    line-height: 29px; 
+    /* identical to box height */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#pilih3:hover{
+    background-color: #DC0000;
+}
+
+#back3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 10%;
+    left: 44.7%;   
+    top: 124%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 24px;
+    /* line-height: 29px;  */
+    /* identical to box height */
+
+    /* display: flex;  */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+#back3:hover{
+    background-color: #DC0000;
+}

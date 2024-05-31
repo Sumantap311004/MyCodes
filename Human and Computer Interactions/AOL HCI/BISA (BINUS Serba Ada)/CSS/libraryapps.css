@@ -1,0 +1,125 @@
+#pilih8{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30%;
+    left: 36%;
+    top: 42%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; /*
+    line-height: 29px; 
+    /* identical to box height */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#pilih8:hover{
+    background-color: #DC0000;
+}
+
+#pilih9{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30%;
+    left: 36%;
+    top: 52%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; /*
+    line-height: 29px; 
+    /* identical to box height */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#pilih9:hover{
+    background-color: #DC0000;
+}
+#pilih10{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30%;
+    left: 36%;
+    top: 62%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; /*
+    line-height: 29px; 
+    /* identical to box height */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#pilih10:hover{
+    background-color: #DC0000;
+}
+
+#back8{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 10%;
+    left: 44.7%;   
+    top: 95%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 24px;
+    /* line-height: 29px;  */
+    /* identical to box height */
+
+    /* display: flex;  */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+#back8:hover{
+    background-color: #DC0000;
+}

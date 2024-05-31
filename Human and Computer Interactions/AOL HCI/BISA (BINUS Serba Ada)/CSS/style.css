@@ -1,0 +1,112 @@
+:root {
+  --primary: red;
+  --bg: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+/*  */
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--bg);
+  color: black;
+}
+
+/* Navbar */
+.navbar1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: transparent;
+  position: fixed;
+  top: -1%;
+  left: -2%;
+  right: 30%;
+  z-index: 10001;
+}
+
+.navbar1 .nav a {
+  display: inline-block;
+}
+
+#logo {
+  height: 3rem;
+  width: auto;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+
+.navbar2 .nav a {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 550;
+  text-align: center;
+  color: red;
+  background-color: #fff;
+  border-radius: 13px;
+  padding: 0.58rem;
+  margin: 0 1rem;
+}
+
+.navbar2 .nav a:hover {
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0.363);
+}
+
+.navbar3 {
+  display: block;
+  justify-content: left;
+  align-items: center;
+  padding: 1rem 3%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  right: 2%;
+  width: 0px;
+  z-index: 10000;
+}
+
+#profile {
+  display: inline-flex;
+  align-items: center;
+  height: 2.8rem;
+  width: auto;
+}
+
+/* Media */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 62%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}

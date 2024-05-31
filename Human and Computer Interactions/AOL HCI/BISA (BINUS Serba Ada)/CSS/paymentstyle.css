@@ -1,0 +1,148 @@
+#tulisan_payment{
+    position: absolute;
+    width: 177px;
+    height: 44px;
+    left: 43.8%;
+    top: 12.5%;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#tulisan_nama{
+    position: absolute;
+    width: 372px;
+    height: 63px;
+    left: 36.1%;
+    top: 30%;
+
+    font-family: 'Mada',sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    /* line-height: 29px;
+    display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#code{
+    position: absolute;
+    width: 271px;
+    height: 322px;
+    left: 40%;
+    top: 45%;
+}
+
+
+
+#othersp{
+    position: absolute;
+    height: 5%;
+    width: 25.96%;
+    left: 37.7%;  
+    top: 100%;
+    
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+    
+    /* position: absolute;
+left: 3.95%;
+right: 5.51%;
+top: 25.15%;
+bottom: 23.98%; */
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 29px;
+    /* identical to box height */
+
+    /* display: flex; */ 
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#othersp:hover{
+    background-color: #DC0000;
+}
+
+#pilih3{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 15%;
+    left: 42.7%;
+    top: 115%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; /*
+    line-height: 29px; 
+    /* identical to box height */
+
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#pilih3:hover{
+    background-color: #DC0000;
+}
+
+#back3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 10%;
+    left: 44.7%;   
+    top: 124%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 24px;
+    /* line-height: 29px;  */
+    /* identical to box height */
+
+    /* display: flex;  */
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+}
+
+#back3:hover{
+    background-color: #DC0000;
+}

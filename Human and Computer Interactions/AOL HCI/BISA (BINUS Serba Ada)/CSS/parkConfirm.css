@@ -1,0 +1,106 @@
+#view{
+  position: absolute;
+left: 40.9%;
+right: 40.97%;
+top: 40.43%;
+bottom: 54%;
+
+border-radius: 15px;
+
+  position: absolute;
+left: 15.06%;
+right: 17.12%;
+top: 35.15%;
+bottom: 55.98%;
+
+      background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#price{
+  position: absolute;
+left: 40.9%;
+right: 40.97%;
+top: 50%;
+bottom: 44.43%;
+
+border-radius: 15px;
+  position: absolute;
+left: 15.26%;
+right: 17.32%;
+top: 55.15%;
+bottom: 33.98%;
+
+      background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#kembali{
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 89.57%;
+    bottom: 2.91%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+#kembali:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#view:hover{
+     cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#price:hover{
+     cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}

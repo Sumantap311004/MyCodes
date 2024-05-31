@@ -1,0 +1,79 @@
+/* #jadwal{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 40.9%;
+    right: 40.97%;
+    top: 40.43%;
+    bottom: 54%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+} */
+
+#booking{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 40.9%;
+    right: 40.97%;
+    top: 50vh;
+    bottom: 44.43%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#kembali{
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 59.57%;
+    bottom: 32.91%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+#jadwal:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#booking:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#kembali:hover{
+      cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}

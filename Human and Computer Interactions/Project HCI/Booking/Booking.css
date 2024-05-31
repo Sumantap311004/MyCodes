@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #06bdff, #010101);
+  color: #010101;
+}
+
+header {
+  background: none;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #fff;
+}
+
+.bookh2 {
+  color: #010101;
+}
+
+section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #06bdff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0496d6;
+}
+
+input::placeholder,
+select::placeholder {
+  color: #999;
+}
+
+/* Menyesuaikan ukuran placeholder */
+input[type="date"]::before {
+  content: attr(placeholder);
+  color: #999;
+  display: block;
+}
+
+/* Menyembunyikan tanggal default pada input date 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+*/
+
+/* Menyesuaikan ukuran placeholder pada input date */
+input[type="date"]:not(.has-value)::before {
+  color: #999;
+  content: attr(placeholder);
+  display: block;
+  padding: 10px;
+}
+
+.clock {
+  color: #010101;
+}
+
+.duration {
+  color: black;
+}
+
+#error {
+  color: red;
+}
+/* Mengatur style placeholder pada Firefox untuk input date */
+@-moz-document url-prefix() {
+  input[type="date"]::-moz-placeholder {
+    color: #999;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Styles for tablets */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Styles for mobile phones */
+  body {
+    font-size: 12px;
+  }
+}

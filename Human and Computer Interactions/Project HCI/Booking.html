@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Booking Hotel</title>
+    <!-- Fonts Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" type="text/css" href="Booking/Booking.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <!-- NavBar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">V-<span>Hotel</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="AbousUs.html">About Us</a>
+        <a href="OurFacility.html">Our Facility</a>
+        <a href="OurRoom.html">Our Rooms</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart Start-->
+      <div class="shopping-cart">
+        <!-- Deluxe Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Deluxe.jpeg" alt="Deluxe Room" />
+          <div class="item-detail">
+            <h3>Deluxe Room</h3>
+            <div class="item-price">IDR 999K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Twin Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Twin.jpeg" alt="Twin Room" />
+          <div class="item-detail">
+            <h3>Twin Room</h3>
+            <div class="item-price">IDR 1250K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Family Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Family.jpeg" alt="Family Room" />
+          <div class="item-detail">
+            <h3>Family Room</h3>
+            <div class="item-price">IDR 1599K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Penthouse Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Penthouse.jpg" alt="Penthouse Room" />
+          <div class="item-detail">
+            <h3>Penthouse Room</h3>
+            <div class="item-price">IDR 2499K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End-->
+    </nav>
+    <!-- NavBar End-->
+
+    <header>
+      <h1>Booking Hotel</h1>
+    </header>
+
+    <section>
+      <div class="clock" id="clock"></div>
+      <h2 class="bookh2">Informasi Pemesanan</h2>
+      <form id="booking-form" onsubmit="return validateForm()">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" placeholder="Masukkan Nama" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Masukkan Email" required />
+
+        <label for="phone">Nomor Telepon:</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Masukkan Nomor Telepon"
+          required
+        />
+
+        <label for="id-number">Nomor KTP:</label>
+        <input
+          type="text"
+          id="id-number"
+          placeholder="Masukkan Nomor KTP"
+          required
+        />
+
+        <label for="room-type">Jenis Kamar:</label>
+        <select id="room-type">
+          <option value="Family Room">Family Room</option>
+          <option value="Penthouse Room">Penthouse Room</option>
+          <option value="Twin Room">Twin Room</option>
+          <option value="Suite Room">Deluxe Room</option>
+        </select>
+
+        <label for="num-rooms">Jumlah Kamar:</label>
+        <input
+          type="number"
+          id="num-rooms"
+          min="1"
+          max="10"
+          placeholder="Pilih Jumlah Kamar"
+          required
+        />
+
+        <label for="check-in">Check-in:</label>
+        <input type="date" id="check-in" required />
+
+        <label for="check-out">Check-out:</label>
+        <input type="date" id="check-out" required />
+
+        <a href="index.html"><button type="submit">Pesan</button></a>
+      </form>
+      <p class="duration" id="duration"></p>
+    </section>
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/vhotelandresidence/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://twitter.com/boutique_hotelv"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/groups/1416983195244581"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="AbousUs.html">About Us</a>
+        <a href="OurFacility.html">Our Facility</a>
+        <a href="OurRoom.html">Our Rooms</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">LouisOktovianus</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer End-->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="Booking/Booking.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>

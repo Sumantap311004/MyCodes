@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas AOL Louis Oktovianus V-Hotel</title>
+
+    <!-- Fonts Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <!-- NavBar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">V-<span>Hotel</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="AbousUs.html">About Us</a>
+        <a href="OurFacility.html">Our Facility</a>
+        <a href="OurRoom.html">Our Rooms</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart Start-->
+      <div class="shopping-cart">
+        <!-- Deluxe Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Deluxe.jpeg" alt="Deluxe Room" />
+          <div class="item-detail">
+            <h3>Deluxe Room</h3>
+            <div class="item-price">IDR 999K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Twin Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Twin.jpeg" alt="Twin Room" />
+          <div class="item-detail">
+            <h3>Twin Room</h3>
+            <div class="item-price">IDR 1250K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Family Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Family.jpeg" alt="Family Room" />
+          <div class="item-detail">
+            <h3>Family Room</h3>
+            <div class="item-price">IDR 1599K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Penthouse Room -->
+        <div class="cart-item">
+          <img src="IMG/Room/Penthouse.jpg" alt="Penthouse Room" />
+          <div class="item-detail">
+            <h3>Penthouse Room</h3>
+            <div class="item-price">IDR 2499K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End-->
+    </nav>
+    <!-- NavBar End-->
+
+    <!-- Room Section Start -->
+    <section class="rooms" id="rooms">
+      <h2><span>Our</span> Rooms</h2>
+      <p>
+        We provide several room options that you can choose according to your
+        preferences and the capacity you need.
+      </p>
+
+      <div class="row">
+        <!-- Deluxe Room -->
+        <div class="room-card">
+          <div class="room-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button-deluxe"
+              ><i data-feather="eye" class="eye-deluxe"></i
+            ></a>
+          </div>
+          <div class="room-image">
+            <img src="IMG/Room/Deluxe.jpeg" alt="Deluxe Room" />
+          </div>
+          <div class="room-content">
+            <h3>Deluxe Room</h3>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="room-price">IDR 999K <span>IDR 1550K</span></div>
+          </div>
+        </div>
+        <!-- Twin Room -->
+        <div class="room-card">
+          <div class="room-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button-twin"
+              ><i data-feather="eye" class="eye-twin"></i
+            ></a>
+          </div>
+          <div class="room-image">
+            <img src="IMG/Room/Twin.jpeg" alt="Twin Room" />
+          </div>
+          <div class="room-content">
+            <h3>Twin Room</h3>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="room-price">IDR 1250K <span>IDR 1550K</span></div>
+          </div>
+        </div>
+        <!-- Family Room-->
+        <div class="room-card">
+          <div class="room-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button-family"
+              ><i data-feather="eye" class="eye-family"></i
+            ></a>
+          </div>
+          <div class="room-image">
+            <img src="IMG/Room/Family.jpeg" alt="Family Room" />
+          </div>
+          <div class="room-content">
+            <h3>Family Room</h3>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="room-price">IDR 1599K <span>IDR 1999K</span></div>
+          </div>
+        </div>
+        <!-- Penthouse Room -->
+        <div class="room-card">
+          <div class="room-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button-penthouse"
+              ><i data-feather="eye" class="eye-penthouse"></i
+            ></a>
+          </div>
+          <div class="room-image">
+            <img src="IMG/Room/Penthouse.jpg" alt="Penthouse Room" />
+          </div>
+          <div class="room-content">
+            <h3>Penthouse Room</h3>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="room-price">IDR 2499K <span>IDR 3999K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Room Section End-->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/vhotelandresidence/"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://twitter.com/boutique_hotelv"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/groups/1416983195244581"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="AbousUs.html">About Us</a>
+        <a href="OurFacility.html">Our Facility</a>
+        <a href="OurRoom.html">Our Rooms</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">LouisOktovianus</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer End-->
+
+    <!-- Notes : Membuat Modal 3 lagi dan arahkan satu satu ke icon Mata -->
+    <!-- Modal Box Item Detail Start -->
+    <!-- Deluxe Modal -->
+    <div class="modal-deluxe" id="item-detail-modal-deluxe">
+      <div class="modal-container">
+        <a href="#" class="close-icon-deluxe"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="IMG/Room/Deluxe.jpeg" alt="Deluxe Room" />
+          <div class="room-content">
+            <h3>Deluxe Room</h3>
+            <p>
+              Welcome to our Deluxe Room: elegant, spacious, and luxuriously
+              appointed. Enjoy plush furnishings, a king-size bed, private
+              balcony with stunning views, state-of-the-art entertainment, and a
+              lavish en-suite bathroom. Unwind and indulge in an exceptional
+              stay of comfort and refinement. Book now for an unforgettable
+              experience.
+            </p>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="room-price">IDR 999K <span>IDR 1550K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>Add To Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Twin Modal -->
+    <div class="modal-twin" id="item-detail-modal-twin">
+      <div class="modal-container">
+        <a href="#" class="close-icon-twin"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="IMG/Room/Twin.jpeg" alt="Twin Room" />
+          <div class="room-content">
+            <h3>Twin Room</h3>
+            <p>
+              Indulge in the comfort and style of our Twin Rooms. Thoughtfully
+              designed for ultimate relaxation, featuring cozy beds, serene
+              ambiance, and modern amenities. Perfect for creating cherished
+              memories with friends or loved ones. Book now for an unforgettable
+              experience.
+            </p>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="room-price">IDR 1250K <span>IDR 1550K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>Add To Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Family Modal -->
+    <div class="modal-family" id="item-detail-modal-family">
+      <div class="modal-container">
+        <a href="#" class="close-icon-family"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="IMG/Room/Family.jpeg" alt="Family Room" />
+          <div class="room-content">
+            <h3>Family Room</h3>
+            <p>
+              Indulge in ultimate comfort and togetherness in our spacious
+              family room, offering privacy and shared moments. Unwind in the
+              cozy living area, bond over games, and retreat to serene bedrooms.
+              Your home away from home, creating cherished memories for a
+              lifetime. Book now for an unforgettable experience.
+            </p>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="room-price">IDR 1599K <span>IDR 1999K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>Add To Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Penthouse Modal -->
+    <div class="modal-penthouse" id="item-detail-modal-penthouse">
+      <div class="modal-container">
+        <a href="#" class="close-icon-penthouse"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="IMG/Room/Penthouse.jpg" alt="Penthouse Room" />
+          <div class="room-content">
+            <h3>Penthouse Room</h3>
+            <p>
+              Experience ultimate luxury in our Penthouse Room. Perched high
+              above the city, it offers breathtaking panoramic views.
+              Meticulously designed with lavish decor, private jacuzzi, and
+              personalized service, indulge in unparalleled comfort. A haven of
+              grandeur, this exclusive retreat ensures an unforgettable stay of
+              pure indulgence. Book now for an unforgettable experience.
+            </p>
+            <div class="room-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="room-price">IDR 2499K <span>IDR 3999K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>Add To Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Java Script -->
+    <script src="JS/script.js"></script>
+  </body>
+</html>

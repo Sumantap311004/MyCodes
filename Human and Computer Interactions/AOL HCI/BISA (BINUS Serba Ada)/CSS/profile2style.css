@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Mada',sans-serif;
+    background: white;
+}
+
+.maguire{
+    margin-top: 20vh;
+    padding: 0 7% 1.4rem;
+}
+
+.maguire .emyu{
+    display: flex;
+}
+
+.maguire .emyu .omaga{
+    flex: 1 1 15rem;
+}
+
+.maguire .emyu .omaga img{
+    width: 100%;
+}
+
+.maguire .emyu .omaga2{
+    flex: 1 1 35rem;
+    padding: 0 2rem;
+}
+
+.maguire .emyu .omaga2 p{
+    font-family: 'Mada',sans-serif;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 700;
+    list-style: none;
+    line-height: 1.6;
+    color: black;
+}
+
+.maguire .emyu .omaga2 .kotak{
+    background: red;
+    padding: 1rem 5%;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.maguire .emyu .omaga2 .kotak2{
+    background: red;
+    padding: 1rem 5%;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.maguire .emyu .omaga2 .kotak3{
+    background: red;
+    padding: 1rem 5%;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.maguire .emyu .omaga2 .kotak4{
+    background: red;
+    padding: 1rem 5%;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.balikanyuk{
+    margin-left: 42.5vw;
+    margin-bottom: 5vh;
+    background: red;
+    padding: 2rem 1.8%;
+    width: 9vw;
+    border-radius: 15px;
+}
+
+.balikanyuk a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media (max-width: 1366px){
+    html{
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 758px){
+    html{
+        font-size: 62%;
+    }
+
+    .maguire .emyu .omaga2 p{
+        font-size: 1.5rem;
+    }
+
+    .maguire .emyu .omaga2 .kotak{
+        font-size: 20px;
+    }
+
+    .maguire .emyu .omaga2 .kotak2{
+        font-size: 20px;
+    }
+
+    .maguire .emyu .omaga2 .kotak3{
+        font-size: 20px;
+    }
+
+    .maguire .emyu .omaga2 .kotak4{
+        font-size: 20px;
+    }
+
+    .balikanyuk a{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 45%;
+    }
+
+    .maguire .emyu .omaga2 p{
+        font-size: 1rem;
+    }
+
+    .maguire .emyu .omaga2 .kotak{
+        font-size: 12px;
+    }
+
+    .maguire .emyu .omaga2 .kotak2{
+        font-size: 12px;
+    }
+
+    .maguire .emyu .omaga2 .kotak3{
+        font-size: 12px;
+    }
+
+    .maguire .emyu .omaga2 .kotak4{
+        font-size: 12px;
+    }
+
+    
+    .balikanyuk a{
+        font-size: 12px;
+    }
+
+}

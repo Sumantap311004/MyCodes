@@ -1,0 +1,227 @@
+
+  #tulisan_nama{
+    position: absolute;
+    width: 298px;
+    height: 60px;
+    left: 150px;    
+    top: 160px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 29px;
+    display: flex;
+    align-items: center; */
+
+    color: #000000;
+}
+
+#masuk_nama{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 850px;
+    height: 67px;
+    left: 338px;
+    top: 160px;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 65px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    text-align: left;
+    text-indent: 30px;
+
+    color: #FFFFFF;
+}
+#tulisan_BID{
+    position: absolute;
+    width: 298px;  
+    height: 60px;
+    left: 15px;
+    top: 240px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+/* line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center; */
+
+    color: #000000;
+}
+
+#masuk_BID{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 850px;
+    height: 67px;
+    left: 338px;
+    top: 250px;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 65px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    text-align: left;
+    text-indent: 30px;
+
+    color: #FFFFFF;
+}
+
+#tulisan_email{
+    position: absolute;
+    width: 298px;  
+    height: 60px;
+    left: 115px;
+    top: 335px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+/* line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center; */
+
+    color: #000000;
+}
+
+#masuk_email{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 850px;
+    height: 67px;
+    left: 338px;
+    top: 335px;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 65px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    text-align: left;
+    text-indent: 30px;
+
+    color: #FFFFFF;
+    
+}
+
+#tulisan_pass{
+    position: absolute;
+width: 298px;
+height: 60px;
+left: 120px;
+top: 425px;
+
+font-family: 'Mada',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+/* line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center; */
+
+color: #000000;
+}
+
+#masuk_pass{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 850px;
+    height: 67px;
+    left: 338px;
+    top: 425px;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 65px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    text-indent: 30px;
+    text-align: left;
+
+    color: #FFFFFF;
+    
+}
+
+#kumpul{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 40.9%;
+    right: 40.97%;
+    top: 79.88%;
+    bottom: 14.55%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+
+    
+}
+
+#kumpul:hover{
+    cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}
+
+#kembali{
+    position: absolute;
+    left: 44.58%;
+    right: 44.51%;
+    top: 88.48%;
+    bottom: 5.76%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+#kembali:hover{
+    cursor:pointer;
+    background-color: #DC0000;
+    color: #FFFFFF;
+}

@@ -1,0 +1,17 @@
+,,wire,Resistor_Lfilter1,wire,,,,,,,,,,,,,,,,,,,,
+,,wire,,wire,,,,,,,,,,,,,,,,,,,,
+,,wire,,Inductor_filter2,,,,,,,,,,,,,,,,,,,,
+,,wire,,wire,,,,,,,,,,,,,,,,,,,,
+Inductor_filter,wire,wire,,Resistor_Lfilter2,wire,wire,wire,Ammeter_Isource,wire,wire,wire,wire,wire,wire,wire,wire,wire,,,,,,,
+Diode_D1,,,,,,,,,,wire,,,wire,,wire,,wire,,,,,,,
+wire,,,,,,,,,,wire,,,wire,,wire,,wire,wire,wire,wire,wire,wire,wire,wire
+wire,wire,wire,,,,,,,,wire,,,wire,,Resistor_Cfilter1,,Resistor_Cfilter2,,,wire,,wire,,wire
+Resistor_Rsource,,wire,,,,,,,,Ammeter_Ioad,,,wire,,wire,,wire,,,Resistor_Cfilter3,,Resistor_Cfilter4,,Resistor_Cfilter5
+wire,,wire,,,,,,,,wire,,,wire,,wire,,wire,,,wire,,wire,,wire
+wire,,Voltmeter_source,,,,,,,,Resistor_load1,,,Voltmeter_diode,,Capacitor_filter1,,Capacitor_filter2,,,Capacitor_filter3,,Capacitor_filter4,,Capacitor_filter5
+wire,,wire,,,,,,,,wire,,,wire,,wire,,wire,,,wire,,wire,,wire
+VoltageSource_Vsource,,wire,,,,,,,,Resistor_load2,,,wire,,wire,wire,wire,wire,,wire,wire,wire,wire,wire
+wire,,wire,,,,,,,,wire,,,wire,,wire,,,wire,,wire,,,,
+wire,wire,wire,,,,,,,,Resistor_load3,,,wire,,wire,,,wire,,wire,,,,
+wire,,,,,,,,,,wire,,,wire,,wire,,,wire,wire,wire,,,,
+wire,wire,wire,wire,wire,wire,wire,wire,wire,wire,wire,wire,wire,wire,wire,wire,,,,,,,,,

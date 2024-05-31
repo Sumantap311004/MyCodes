@@ -1,0 +1,131 @@
+.oshimen{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.oshimen .napoli{
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+}
+
+.kont0{
+    position: absolute;
+    left: 0.05%;
+    top: 12.1%;
+    height: 4%;
+    width: 10%;
+    
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 10px;
+}
+
+.kont0 #tulisan_sat{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+
+.kom{
+    margin-top: 15vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.kont{
+    padding: 2.5rem 10%;
+    width: 85vw;
+    background: #DC0000;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}
+
+.kont a{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.kont2{
+    padding: 2.5rem 10%;
+    width: 85vw;
+    background: #DC0000;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}
+
+.kont2 a{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.kont3{
+    padding: 2.5rem 10%;
+    width: 85vw;
+    background: #DC0000;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}
+.kont3 a{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.kont4{
+    padding: 2.5rem 10%;
+    width: 85vw;
+    background: #DC0000;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}
+.kont4 a{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.kont5{
+    padding: 2.5rem 10%;
+    width: 85vw;
+    background: #DC0000;
+    border-radius: 15px;
+    margin-bottom: 2.5rem;
+}
+.kont5 a{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bawah{
+    width: 9vw;
+    background: #DC0000;
+    padding: 2rem 5%;
+    border-radius: 15px;
+}
+
+.bawah a{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+

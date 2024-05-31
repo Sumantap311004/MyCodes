@@ -1,0 +1,108 @@
+html{
+  overflow-y: scroll;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Mada", sans-serif;
+  background-color: white;
+}
+
+#main_menu {
+  cursor: default;
+  margin-top: 11vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Mada", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+
+.badangnya {
+  align-items: center;
+  position: absolute;
+  padding: 1.4rem 7%;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.badangnya a {
+  cursor: pointer;
+  width: 7rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0rem 5rem;
+  margin: 3rem 12rem;
+  /* background-color: red; */
+}
+
+.badangnya a img {
+  height: auto;
+  width: 7rem;
+}
+
+.badangnya a p {
+  color: #000000;
+  font-weight: 700;
+  margin: 0.7rem;
+}
+
+.badangnya a:hover {
+  text-decoration: underline black;
+  opacity: 60%;
+}
+
+@media (max-width: 1166px) {
+  .badangnya .awok a {
+    width: 6rem;
+    padding: 1.8rem 4.5rem;
+    margin: 1.8rem 9.6rem;
+  }
+  .badangnya .awok a img {
+    height: auto;
+    width: 6rem;
+  }
+}
+
+@media (max-width: 791px) {
+  .badangnya .awok a {
+    width: 6rem;
+    padding: 1.2rem 4rem;
+    margin: 1.8rem 6.7rem;
+  }
+  .badangnya .awok a img {
+    height: auto;
+    width: 6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .badangnya .awok a {
+    width: 7rem;
+    padding: 1rem 5rem;
+    margin: 2.5rem 5rem;
+  }
+  .badangnya .awok a img {
+    height: auto;
+    width: 6rem;
+  }
+}

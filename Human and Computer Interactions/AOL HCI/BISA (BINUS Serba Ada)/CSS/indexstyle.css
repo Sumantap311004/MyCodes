@@ -1,0 +1,158 @@
+#jempol{
+    position: fixed;
+    width: 40%;
+    left: 60vw;
+    
+    margin-top: 22.5vh;
+}
+
+.badan{
+    display: flex;
+}
+
+#halo{
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 30vh;
+    
+    /* left: 0vw; */
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    align-items: center;
+
+    color: #000000;
+}
+
+#welcome{
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 35vh;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    align-items: center;
+
+    color: #000000;
+}
+
+#daftarkeun{
+    position: absolute;
+    width: 164px;
+    height: 76px;
+    margin-left: 0.5vw;
+    margin-top: -5vh;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 5%;
+    right: 53%;
+    top: 60%;
+    bottom: 60%;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    font-family: 'Mada',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center; */
+
+    color: #FFFFFF;
+
+
+}
+
+#daftarkeun:hover{
+    background-color: #DC0000;
+}
+
+#login{
+    position: absolute;
+    width: 162px;
+    height: 76px;
+    margin-left: 2vw;
+    margin-top: -5vh;
+    box-sizing: border-box;
+
+    background: rgba(220, 0, 0, 0.34);
+    border: 1px solid #DC0000;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 20%;
+    right: 53%;
+    top: 60%;
+    bottom: 60%;
+    
+
+    font-family: 'Mada',sans-serif;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+#login:hover{
+    background-color: #982929;
+}
+
+@media (max-width: 1366px){
+    html{
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 758px){
+    html{
+        font-size: 62%;
+    }
+
+    #halo{
+        font-size: 20px;
+    }
+
+    #welcome{
+        font-size: 20px;
+    }
+
+    #daftarkeun{
+        font-size: 15px;
+        width: 122px;
+        height: 56px;
+    }
+
+    #login{
+        font-size: 15px;
+        width: 122px;
+        height: 56px;
+    }
+
+}
+
+@media (max-width: 450px){
+
+    #daftarkeun{
+        font-size: 12px;
+        width: 92px;
+        height: 36px;
+    }
+
+    #login{
+        font-size: 12px;
+        width: 92px;
+        height: 36px;
+    }
+}
